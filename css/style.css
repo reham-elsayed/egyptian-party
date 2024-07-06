@@ -1,0 +1,64 @@
+.HomeHero{
+    height:90vh;
+    position:relative;
+ 
+    background-image:url(../img/event.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(174, 14, 14, 0.695);
+    background-repeat: no-repeat;
+    background-size:cover;
+   /* filter:  saturate(150%) hue-rotate(350deg);*/
+
+}
+#count{
+    height: 50vh;
+    color:white;
+    font-weight: 800;
+    background-image:url(../img/count.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(174, 14, 14, 0.695);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/*.sideNav{
+position:absolute;
+top:0;
+bottom: 0;
+left:0;
+
+}*/
+.openNav{
+   
+    color:white;
+   position:absolute;
+   left:0;
+   top:0;
+   bottom: 0;
+z-index: 999;
+}
+.openNav:hover{
+   cursor:pointer;
+
+}
+.openNavBtn{
+    font-size:30px
+}
+/** navs and tabs*/
+.active{
+    color:blueviolet;
+}
+ #contact-us .head h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+ }
+ #contact-us .head p{
+    text-align: center;
+ }
+ #contact-us .con-info h3 {
+    color: #444;
+    font-weight: bolder;
+    font-size: 18px;}
